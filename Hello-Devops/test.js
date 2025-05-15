@@ -1,9 +1,9 @@
 const greet = require('./app');
 
-if(greet()=== "Hello from DevOps!") {
+if(greet() === "Hello from DevOps!") {
     console.log("Test passed!");
     Process.exit(0);
-} else {
+}else {
     console.log("Test failed!");
     Process.exit(1);
 }
